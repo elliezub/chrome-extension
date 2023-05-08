@@ -1,25 +1,22 @@
 
 
 
-
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
-    max-width: 450px;
+    min-width: 350px;
+    max-width: 390px;
     background-color: rgb(170, 161, 211);
-
 }
 
  #bg {
     margin:0;
     width:100vw;
-    height: 100%;
+    min-height: 100%;
     background: radial-gradient(ellipse at top,  #a367a7, transparent),
     radial-gradient(ellipse at bottom, rgb(10, 47, 255), transparent);
     background-size: cover;
-
 }
 
 #container {
@@ -39,7 +36,7 @@ input {
     padding: 10px;
     box-sizing: border-box;
     border:3px solid #6F29FF;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 4px;
 }
 
@@ -79,4 +76,3 @@ li {
 a {
     color: #4D36C4;
 }
-
